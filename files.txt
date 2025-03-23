@@ -1,1 +1,1 @@
-main src/main.c src/display.c include/display.h
+main src/main.c src/monitor.c include/monitor.h src/utils.c include/utils.h src/worker.c include/worker.h -ldl -lndbm gdbm_compat
